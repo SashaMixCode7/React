@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+.placement-phase{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+
+/*.ship { background-color: #007bff; }
+.shot { background-color: #dc3545; color: white; }
+.fault { background-color: #6c757d; }
+.destroyed { background-color: #28a745; }
+
+.sqr_win {
+  background-color: green;
+}*/
+
+.sqr_place {
+  background-color: green;
+}
+.sqr_miss {
+  background-color: rgb(56, 56, 87);
+}
+.sqr_hit{
+  background-color: orange;
+}
+.sqr_kill {
+  background-color: red;
+}
+.sqr_zan {
+  background-color: grey;
+}
+
+/*.boards-container {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+}*/
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.game-board{
+  margin: 1rem;
+}
+
+.winner-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.winner-announcement {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.new-game-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/*.placement-controls {
+    display: flex;
+    gap: 1rem;
+}*/
+
+/* Стили для кнопок */
+/*.placement-controls > button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+/* Стили для активной кнопки */
+/*.placement-controls > button.default {
+    background-color: #2563eb;
+    color: white;
+}
+
+.placement-controls > button.default:hover {
+    background-color: #3b82f6;
+}
+
+/* Стили для неактивной кнопки */
+/*.placement-controls > button.outline {
+    border: 2px solid #2563eb;
+    background-color: transparent;
+    color: #2563eb;
+}
+
+.placement-controls > button.outline:hover {
+    background-color: #dbeafe;
+}
+
+/* Стили для кнопки начала игры */
+/*.placement-controls > .placement-controls {
+    background-color: #22c55e;
+    color: white;
+}
+
+.placement-controls > .placement-controls:hover {
+    background-color: #40c057;
+}*/
